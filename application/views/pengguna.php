@@ -25,7 +25,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col">
-            <h1 class="m-0 text-dark">Pengguna</h1>
+            <h1 class="m-0 text-dark">Data Pengguna</h1>
           </div><!-- /.col -->
         </div><!-- /.row -->
       </div><!-- /.container-fluid -->
@@ -37,7 +37,7 @@
       <div class="container-fluid">
         <div class="card">
           <div class="card-header">
-            <button class="btn btn-success" data-toggle="modal" data-target="#modal" onclick="add()">Add</button>
+            <button class="btn btn-success" data-toggle="modal" data-target="#modal" onclick="add()">Tambah Pengguna</button>
           </div>
           <div class="card-body">
             <table class="table w-100 table-bordered table-hover" id="pengguna">

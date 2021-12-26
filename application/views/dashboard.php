@@ -18,7 +18,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col">
-            <h1 class="m-0 text-dark">Dashboard</h1>
+            <h1 class="m-0 text-dark"><b>Selamat Datang</b> Admin toko PT Berkah Perkasa</h1>
           </div><!-- /.col -->
         </div><!-- /.row -->
       </div><!-- /.container-fluid -->
@@ -31,48 +31,54 @@
     <section class="content">
       <div class="container-fluid">
         <div class="row">
+                  
+           <!-- Menu Data Pelanggan -->
+           <div class="col-lg-4 col-sm-6">
+            <div class="small-box bg-info">
+              <div class="inner">
+                <h2>Data Pelanggan</h2>
+              </div>
+              <div class="icon">
+                <i class="fas fa-address-book"></i>
+              </div>
+              <a href="<?php echo site_url('pelanggan') ?>" class="small-box-footer">
+                More Info <i class="fas fa-arrow-circle-right"></i>
+              </a>
+            </div>
+          </div>
+          <!-- End of data pelanggan-->
+
+          <!-- Menu Data Transaki -->
           <div class="col-lg-4 col-sm-6">
             <div class="small-box bg-info">
               <div class="inner">
-                <h3 id="transaksi_hari">0</h3>
-                <p>Transaksi Hari Ini</p>
+                <h2>Data Transaksi</h2>
               </div>
               <div class="icon">
-                <i class="fas fa-shopping-cart"></i>
+                <i class="fas fa-table"></i>
               </div>
               <a href="<?php echo site_url('laporan_penjualan') ?>" class="small-box-footer">
                 More Info <i class="fas fa-arrow-circle-right"></i>
               </a>
             </div>
           </div>
+          <!-- End of data transaksi-->
+
+          <!-- Menu Data Produk -->
           <div class="col-lg-4 col-sm-6">
-            <div class="small-box bg-warning">
+            <div class="small-box bg-info">
               <div class="inner">
-                <h3 id="transaksi_terakhir">0</h3>
-                <p>Produk Transaksi Terakhir</p>
+                <h2>Data Produk</h2>
               </div>
               <div class="icon">
-                <i class="fas fa-money-bill"></i>
+                <i class="fas fa-box"></i>
               </div>
-              <a href="<?php echo site_url('laporan_penjualan') ?>" class="small-box-footer">
+              <a href="<?php echo site_url('produk') ?>" class="small-box-footer">
                 More Info <i class="fas fa-arrow-circle-right"></i>
               </a>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="small-box bg-danger">
-              <div class="inner">
-                <h3 id="stok_hari">0</h3>
-                <p>Stok Masuk Hari Ini</p>
-              </div>
-              <div class="icon">
-                <i class="fas fa-archive"></i>
-              </div>
-              <a href="<?php echo site_url('laporan_stok_masuk') ?>" class="small-box-footer">
-                More Info <i class="fas fa-arrow-circle-right"></i>
-              </a>
-            </div>
-          </div>
+          <!-- End of data transaksi-->
           
           <div class="col-md-6">
             <div class="card card-primary">
@@ -90,7 +96,7 @@
             <div class="card card-warning">
               <div class="card-header">
                 <h3 class="card-title">Stok Produk</h3>
-              </div>t
+              </div>
               <div class="card-body">
                 <div class="chart" style="height: auto;max-height: 250px; overflow-y: scroll;">
                   <ul class="list-group" id="stok_produk"></li>
