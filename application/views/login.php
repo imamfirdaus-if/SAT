@@ -5,16 +5,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Login</title>
+  <title>S A T - Login</title>
   <?php $this->load->view('partials/head'); ?>
 </head>
 <body class="hold-transition login-page">
 
   <div class="login-box">
-    <div class="login-logo">Login</div>
+    <div class="login-logo"><b>S  A  T</b></div>
     <div class="card">
       <div class="card-body login-card-body">
-        <p class="login-box-msg">Login untuk masuk</p>
+        <p class="login-box-msg">Sistem Administrasi Toko</p>
         <div class="alert alert-danger d-none"></div>
         <form>
           <div class="input-group mb-3">
