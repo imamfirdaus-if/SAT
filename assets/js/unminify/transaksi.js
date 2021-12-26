@@ -174,7 +174,7 @@ function kembalian() {
     let total = $("#total").html(),
         jumlah_uang = $('[name="jumlah_uang"').val(),
         diskon = $('[name="diskon"]').val();
-    $(".kembalian").html(jumlah_uang - total - ((total/100)*10)));
+    $(".kembalian").html(jumlah_uang - total - ((total/100)*10));
     checkUang()
 }
 

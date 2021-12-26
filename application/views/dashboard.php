@@ -90,7 +90,7 @@
             <div class="card card-warning">
               <div class="card-header">
                 <h3 class="card-title">Stok Produk</h3>
-              </div>
+              </div>t
               <div class="card-body">
                 <div class="chart" style="height: auto;max-height: 250px; overflow-y: scroll;">
                   <ul class="list-group" id="stok_produk"></li>

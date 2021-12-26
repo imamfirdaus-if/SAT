@@ -11,10 +11,10 @@
 <body class="hold-transition login-page">
 
   <div class="login-box">
-    <div class="login-logo"><b>S  A  T</b></div>
+    <div class="login-logo"><b>S</b>istem <b>A</b>dministrasi <b>T</b>oko</b></div>
     <div class="card">
       <div class="card-body login-card-body">
-        <p class="login-box-msg">Sistem Administrasi Toko</p>
+        <p class="login-box-msg">PT. Berkah Perkasa</p>
         <div class="alert alert-danger d-none"></div>
         <form>
           <div class="input-group mb-3">
